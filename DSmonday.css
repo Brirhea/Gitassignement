@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+header {
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(https://i.redd.it/27f8jeji1z841.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 h1 {
     font-family: 'Dancing Script', 'Times New Roman', Times, serif;
     width: 600px;
@@ -10,6 +22,7 @@ h1 {
     font-size: 100px;
     text-align: center;
 
+
 }
 div{
     font-size: 24px;
@@ -17,18 +30,26 @@ div{
     text-align: center;
 }
 p {
+    margin-top: 50px;
     font-size: 20px;
     text-align: left;
     margin-left: 200px;
     margin-right: 200px;
 }
-    #abs1 {
-        z-index: 5;
-        position: absolute;
-        width: 150px;
-        height: 600px;
-        top: 10px;
-        left: 10px;
-        border: 10px solid gray;
-        margin-top: 300px;
+li {
+    list-style: none;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto 2.5em;
+    display: inline;
+    justify-content: center;
       }
+ul{
+    background-color: gray;
+    height: 40px;
+    padding: 5px;
+    margin: 0%;
+}
+#story{
+    margin-top: 50px;
+}
