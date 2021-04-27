@@ -21,12 +21,28 @@ h1 {
     margin-right: auto;
     font-size: 100px;
     text-align: center;
-
-
 }
-div{
+ul{
+    background-color: gray;
+    height: 40px;
+    padding: 5px;
+    margin: 0%;
+}
+li {
+    list-style: none;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto 2.5em;
+    display: inline;
+    justify-content: center;
+    }
+#abs1{
     font-size: 24px;
-    text-decoration: underline;
+    text-align: center;
+}
+#story{
+    margin-top: 50px;
+    font-size: 24px;
     text-align: center;
 }
 p {
@@ -36,20 +52,5 @@ p {
     margin-left: 200px;
     margin-right: 200px;
 }
-li {
-    list-style: none;
-    width: 300px;
-    padding: 20px;
-    margin: 0 auto 2.5em;
-    display: inline;
-    justify-content: center;
-      }
-ul{
-    background-color: gray;
-    height: 40px;
-    padding: 5px;
-    margin: 0%;
-}
-#story{
-    margin-top: 50px;
-}
+
+
