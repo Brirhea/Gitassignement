@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+header {
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(https://i.redd.it/27f8jeji1z841.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
